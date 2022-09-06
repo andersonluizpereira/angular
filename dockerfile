@@ -4,4 +4,4 @@ COPY package.json package-lock.json ./
 RUN npm ci --only=production
 COPY . .
 RUN npm run build
-CMD [ "npm", "start" ]
+RUN npm run start
