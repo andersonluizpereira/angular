@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrl: 'https://baconipsum.com/api/?type=all-meat&paras=2&start-with-lorem=1'
 };
 
 /*
